@@ -14,7 +14,7 @@ void AddNode( int NewValue ){
  Root = Item;
 }
 void CreateList(){
- printf(" Create a list.\n");
+ printf(" Create a list .\n");
  Root = NULL;
  AddNode( 5 );
  AddNode( 4 );
