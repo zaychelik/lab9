@@ -44,7 +44,7 @@ void DestroyList(){
  Root = NULL;
 }
 void ListFunction(){
- printf("Demonstration of work.\n");
+ printf("Demonstration of work. \n");
  CreateList();
  ShowList();
  DestroyList();

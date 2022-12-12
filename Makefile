@@ -18,7 +18,7 @@ install: all
 	cp app.out $(INST_DIR); \
 	echo "The program was installed in $(INST_DIR)"; \
 	else \
-	echo "$(INST_DIR) not found."; \
+	echo "$(INST_DIR) not found. "; \
 fi
 
 static: list.c matrix.c
