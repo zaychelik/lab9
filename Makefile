@@ -16,7 +16,7 @@ install: all
 	@if [-d $(INST_DIR) ]; \
 	then \
 	cp app.out $(INST_DIR); \
-	echo "The program was installed in $(INST_DIR)"; \
+	echo " The program was installed in $(INST_DIR)"; \
 	else \
 	echo "$(INST_DIR) not found. "; \
 fi

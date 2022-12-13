@@ -4,7 +4,7 @@
 #include "matrix.h"
 
 int main( int argc, char* argv[] ){
- printf("Sample program in language C\n\n");
+ printf(" Sample program in language C\n\n");
  ListFunction();
  MatrixFunction();
  return 0;
